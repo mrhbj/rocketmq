@@ -97,8 +97,7 @@ public class StaticTopicIT extends BaseConf {
             sendMessagesAndCheck(producer, getBrokers(), topic, queueNum, msgEachQueue, 100);
         }
     }
-
-    @Ignore
+    
     @Test
     public void testCommandsWithBrokers() throws Exception {
         //This case is used to mock the env to test the command manually
